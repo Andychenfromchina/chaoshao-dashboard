@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>广州潮少 · 运营看板</title><style>
+:root{--brand:#1a56db;--brand2:#0b3aa8;--accent:#06b6d4;--bg:#f4f6fb;--card:#fff;--ink:#14181f;--ink2:#66707e;--line:#e6e9f0;--ok:#12a150;--warn:#f59e0b;--bad:#e5484d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB",sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:960px;margin:0 auto;padding:24px 18px 64px}.num,.kv,.spark-last{font-variant-numeric:tabular-nums}.muted{color:var(--ink2);font-size:12px}
+.top{background:linear-gradient(120deg,var(--brand2),var(--brand));color:#fff;border-radius:16px;padding:20px 22px;box-shadow:0 6px 20px rgba(26,86,219,.22)}
+.top h1{margin:0;font-size:22px;font-weight:800;letter-spacing:.01em}.top .sub{opacity:.85;font-size:13px;margin-top:6px}.bolt{color:#ffd54a}
+h2{font-size:13px;letter-spacing:.08em;color:var(--ink2);font-weight:800;margin:28px 0 12px;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+h2::before{content:"";width:14px;height:14px;border-radius:4px;background:var(--brand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(146px,1fr));gap:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--brand);border-radius:12px;padding:14px 15px;box-shadow:0 1px 3px rgba(20,30,60,.05);transition:transform .12s,box-shadow .12s}
+.kpi:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(20,30,60,.10)}
+.kpi.ok{border-top-color:var(--ok)}.kpi.warn{border-top-color:var(--warn)}.kpi.bad{border-top-color:var(--bad)}
+.kl{font-size:12px;color:var(--ink2);display:flex;align-items:center;gap:4px}.kv{font-size:28px;font-weight:800;margin:3px 0}.kpi.bad .kv{color:var(--bad)}.kpi.warn .kv{color:var(--warn)}.ks{font-size:12px;color:var(--ink2)}
+.up{color:var(--ok);font-weight:700}.dn{color:var(--bad);font-weight:700}
+.q{display:inline-flex;width:14px;height:14px;border-radius:50%;background:var(--line);color:var(--ink2);font-size:10px;align-items:center;justify-content:center;cursor:help;font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:0 1px 3px rgba(20,30,60,.05);margin-bottom:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:680px){.two{grid-template-columns:1fr}}
+.ct{display:flex;font-weight:700;font-size:13px;margin-bottom:10px;align-items:center;gap:6px}
+.stat4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center}@media(max-width:560px){.stat4{grid-template-columns:repeat(2,1fr)}}
+.stat4 .v{font-size:20px;font-weight:800}.stat4 .l{font-size:12px;color:var(--ink2)}
+.bar{display:flex;align-items:center;gap:8px;margin:7px 0;font-size:13px}.bk{width:62px;color:var(--ink2)}.bt{flex:1;height:8px;background:#eef1f7;border-radius:5px;overflow:hidden}.bf{display:block;height:100%}.bv{width:50px;text-align:right;font-variant-numeric:tabular-nums}
+.call{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:11px 14px;font-size:13px;margin-top:12px}
+.pill{display:inline-block;background:var(--brand);color:#fff;border-radius:20px;padding:4px 13px;font-size:12px;font-weight:700;margin:0 6px 6px 0}.pill.alt{background:var(--accent)}
+.foot{color:var(--ink2);font-size:12px;margin-top:30px;border-top:1px solid var(--line);padding-top:14px}
+</style></head><body><div class="wrap">
+
+<div class="top"><h1><span class="bolt">⚡</span> 广州潮少 · 运营看板</h1>
+<div class="sub">更新 2026-06-30 19:50 · 统计周期 2026-06-23 至 2026-06-29 · 复盘后刷新</div></div>
+
+<h2>抖音 · 广州潮少</h2>
+<div class="grid">
+<div class="kpi "><div class="kl">总粉丝</div><div class="kv">—</div><div class="ks">7日净增 <span class="up">▲ +11</span></div></div>
+<div class="kpi "><div class="kl">7日播放</div><div class="kv">45,000</div><div class="ks">投稿 7 条</div></div>
+<div class="kpi "><div class="kl">完播率<span class="q" title="条均完播率,越高越好(高于91.95%同类)">?</span></div><div class="kv">23.47%</div><div class="ks">完整看完比例</div></div>
+<div class="kpi "><div class="kl">封面点击率<span class="q" title="封面点击率,越高越好">?</span></div><div class="kv">3.24%</div><div class="ks">封面吸引力</div></div>
+<div class="kpi bad"><div class="kl">互动指数<span class="q" title="赞评分享综合,&lt;1%偏低">?</span></div><div class="kv">0.51%</div><div class="ks">健康线≈2%</div></div>
+<div class="kpi "><div class="kl">条均时长</div><div class="kv">6.82秒</div><div class="ks">近7条中位播放 4,641</div></div>
+</div>
+<div class="card" style="margin-top:14px"><div class="ct">📈 趋势(抖音7日播放 / 视频号7日播放)</div>
+<div style="display:flex;gap:28px;flex-wrap:wrap;align-items:center"><span class="muted">抖音</span> <span class="muted">趋势积累中(需≥2天)</span> <span class="muted">视频号</span> <span class="muted">趋势积累中(需≥2天)</span></div></div>
+
+<h2>投稿表现(近 9 条)</h2>
+<div class="card"><div class="stat4">
+<div><div class="v">3.24%</div><div class="l">条均点击率</div></div>
+<div><div class="v">4641</div><div class="l">播放量中位数</div></div>
+<div><div class="v">14000</div><div class="l">最高播放</div></div>
+<div><div class="v">2687</div><div class="l">最低播放</div></div>
+</div><div class="muted" style="margin-top:10px">🏆 最高播放:亚洲一夜变天，冠亚军双双出局</div></div>
+
+<h2>粉丝画像(抖音)</h2>
+<div class="two">
+<div class="card"><div class="ct">兴趣分布</div><span class="muted">—</span></div>
+<div class="card"><div class="ct">地域分布</div><span class="muted">—</span></div>
+</div>
+
+
+<h2>视频号 · 潮少大陈</h2>
+<div class="grid">
+<div class="kpi "><div class="kl">关注者</div><div class="kv">401</div><div class="ks">7日净增 —</div></div>
+<div class="kpi "><div class="kl">7日播放</div><div class="kv">21,581</div><div class="ks">≈ 抖音的 0.5×</div></div>
+<div class="kpi warn"><div class="kl">互动率·北极星<span class="q" title="(赞+评)÷曝光,视频号最大短板">?</span></div><div class="kv">0.57%</div><div class="ks">目标0.5%(健康1.5%)</div></div>
+<div class="kpi "><div class="kl">7日点赞/评论</div><div class="kv">75 / 47</div><div class="ks"></div></div>
+</div>
+<div class="two">
+<div class="card"><div class="ct">粉丝来源</div><span class="muted">—</span></div>
+<div class="card"><div class="ct">流量来源(7日播放)</div><span class="muted">—</span></div>
+</div>
+<div class="call" style="background:#eff6ff;border-color:#bfdbfe">📊 <b>两平台分工</b>:抖音吃推荐爆发(7日播放 45,000、单条峰值 14000);视频号评论文化更强、长尾更稳(7日播放 21,581 ≈ 抖音 0.5×)。结论:热点冲抖音流量,毒舌/站队在视频号催评论。</div>
+
+<h2>平台诊断 · 下条策略（2026-06-30）</h2>
+<div class="call" style="background:#eff6ff;border-color:#bfdbfe">🎯 <b>一句话策略</b>：热点冲抖音流量、毒舌站队在视频号催评论;每天1条挑当日最热做深,别一天多条摊薄推荐。（信心 70）</div>
+<div class="two"><div class="card"><div class="ct">抖音 · 广州潮少 <b style="color:var(--warn)">健康 62</b></div><p style="font-size:12.5px;line-height:1.5;margin:8px 0 4px"><b>根因</b> 世界杯毒舌条带来稳定播放(均5千+,峰值1.4万),但评论极少(多条0评)、互动率仅约0.5%,内容沉淀与涨粉偏弱。</p><p style="font-size:12.5px;line-height:1.5;margin:0;color:var(--brand)"><b>最大杠杆</b> 标题与口播收敛到单一「站队/开喷」钩子,把看客逼成评论者,而不是只追播放峰值。</p></div><div class="card"><div class="ct">视频号 · 潮少大陈 <b style="color:var(--ok)">健康 68</b></div><p style="font-size:12.5px;line-height:1.5;margin:8px 0 4px"><b>根因</b> 播放平稳、评论文化明显强于抖音(同条梅西19球视频号18评 vs 抖音0),老内容长尾好;短板是高频发布受实名/登录限制。</p><p style="font-size:12.5px;line-height:1.5;margin:0;color:var(--brand)"><b>最大杠杆</b> 把毒舌站队条优先、稳定地供给视频号,每天1条、保持登录态,避免触发实名验证拦截。</p></div></div>
+
+<h2>📉 扎心真相 · 逐条数据(抖音 11 条 · 总播放 52,580 · 总评论 <b style="color:var(--bad)">14</b>)</h2>
+<div class="call" style="background:#fef2f2;border-color:#fecaca">⚠️ <b>别被播放骗了</b><ul style="margin:6px 0 0;padding-left:18px;line-height:1.65;font-size:12.5px"><li>11条已出数作品、累计约52千次播放,评论合计仅 14 条。</li><li>全部互动率 0.19%–4.17%,均未达视频号加推线1.5%。</li><li>最高播放 14000（亚洲一夜变天，冠亚军双双出局）仅 0 条评论;播放多≠内容沉淀。</li></ul></div>
+<div class="two">
+<div class="card"><div class="ct">CTA 有效性(实测 · 按播放中位)</div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">服不服</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n1 · 播放中位 <b>9040</b> · 评论均 <b style="color:var(--bad)">0.0</b> · 互动 0.51% <span style="color:var(--bad);font-weight:700">证伪</span></span></div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">开放式提问</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n1 · 播放中位 <b>5161</b> · 评论均 <b style="color:var(--ink)">5.0</b> · 互动 0.58% </span></div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">站队</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n2 · 播放中位 <b>4235</b> · 评论均 <b style="color:var(--ink)">1.5</b> · 互动 0.33% </span></div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">其他/无明确CTA</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n5 · 播放中位 <b>4055</b> · 评论均 <b style="color:var(--bad)">0.2</b> · 互动 1.74% <span style="color:var(--bad);font-weight:700">证伪</span></span></div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">毒舌开喷</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n2 · 播放中位 <b>3664</b> · 评论均 <b style="color:var(--ink)">2.5</b> · 互动 0.6% </span></div><div class="muted" style="margin-top:8px">某类 CTA 均评论&lt;1 条会自动标红「证伪」</div></div>
+<div class="card"><div class="ct">题材梯队(实测播放 / 评论)</div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">二梯队·巨星话题</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n3 · 播放中位 <b>5367</b> · 评论均 <b style="color:var(--ink)">1.0</b> · 互动 0.56% </span></div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">其他热点</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n3 · 播放中位 <b>5161</b> · 评论均 <b style="color:var(--ink)">1.67</b> · 互动 0.35% </span></div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">一梯队·豪门冷门/出局</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n3 · 播放中位 <b>4463</b> · 评论均 <b style="color:var(--ink)">2.0</b> · 互动 0.7% </span></div><div class="bar" style="align-items:flex-start"><span class="bk" style="flex:0 0 46%">非热点·街拍唱歌</span><span style="font-size:11.5px;color:var(--ink2);line-height:1.4">n2 · 播放中位 <b>31</b> · 评论均 <b style="color:var(--bad)">0.0</b> · 互动 3.4% <span style="color:var(--bad);font-weight:700">证伪</span></span></div></div>
+</div>
+
+
+<h2>下一条视频 · 落地稿（世界杯热点 · 毒舌）</h2>
+<div class="card">
+<span class="pill">世界杯热点 · 毒舌</span>
+<span class="pill alt">CTA 站队/开喷</span>
+<p style="font-size:15px;font-weight:700;margin:10px 0 2px">(明日)挑当日最热的一场1/16决赛或8强对阵,做二选一站队</p>
+<p style="font-size:13px;margin:2px 0 8px;color:var(--ink2)">前3秒钩子：「这场踢完,又有人要回家了」</p>
+<ol style="font-size:13px;line-height:1.6;margin:0 0 8px;padding-left:18px"><li>0-1s 正脸+不屑/挑眉表情强钩子</li><li>1-6s 抛出当日最热的冷门或争议结果(实名球队/球员)</li><li>6-11s 毒舌点评,亮明最大矛盾点(被吹太狠/甩锅裁判/黑马掀豪门)</li><li>11-15s 站队CTA:你押谁、是不是真不行,评论区开喷</li></ol>
+<p style="font-size:13px;margin:6px 0 2px"><b>CTA</b> 评论区站队/开喷——二元对立(押A还是押B)最催评论</p>
+<p style="font-size:12.5px;margin:4px 0;color:var(--ink2)"><b>抖音话题</b> #世界杯 #世界杯淘汰赛 #足球 #毒舌点评</p>
+<div style="font-size:12px;margin:6px 0 0;color:var(--ink2)"><b style="color:var(--warn)">风险</b><ul style="margin:2px 0;padding-left:18px;line-height:1.5"><li>一天多条同题材(今日3条:德国/日本/荷兰)会摊薄抖音单条推荐、易审美疲劳——回到每天1条做深。</li><li>视频号高频发布可能触发实名验证/限流,需保持发布间隔与登录态。</li><li>Seedance底片随机自烧台词字幕,发布前必抽帧tile质检,烧了用裁切根治。</li></ul></div>
+</div>
+
+<div class="foot">数据源:抖音/视频号创作者中心,发布核验时顺手抓取渲染。本页仅含运营指标,不含账号凭证。</div>
+</div></body></html>
